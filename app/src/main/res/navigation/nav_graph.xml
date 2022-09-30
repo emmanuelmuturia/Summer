@@ -18,5 +18,21 @@
         android:id="@+id/summerFragment"
         android:name="com.emmanuelmuturia.summer.SummerFragment"
         android:label="fragment_summer"
-        tools:layout="@layout/fragment_summer" />
+        tools:layout="@layout/fragment_summer" >
+        <action
+            android:id="@+id/action_summerFragment_to_encryptorFragment"
+            app:destination="@id/encryptorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/encryptorFragment"
+        android:name="com.emmanuelmuturia.summer.EncryptorFragment"
+        android:label="fragment_encryptor"
+        tools:layout="@layout/fragment_encryptor" >
+        <argument
+            android:name="num1"
+            app:argType="integer" />
+        <argument
+            android:name="num2"
+            app:argType="integer" />
+    </fragment>
 </navigation>

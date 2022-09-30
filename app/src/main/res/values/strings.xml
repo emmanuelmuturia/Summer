@@ -8,4 +8,7 @@
     <string name="num_2">Num 2:</string>
     <string name="enter_second_number">Enter Second Number</string>
     <string name="sum">SUM!</string>
+    <string name="your_sum_is">Your sum is:</string>
+    <string name="your_encrypted_sum_is">Your encrypted sum is:</string>
+    <string name="encrypt">Encrypt!</string>
 </resources>
