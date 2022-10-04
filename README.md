@@ -1,5 +1,5 @@
 # Summer
-An original implementation of the concepts taught in Chapter 6 and 7 of Head Start First Android (Kotlin)
+An original implementation of Fragments, Navigation and Safe Args based on Head Start First Android (Kotlin)
 
 # Concepts of Interest
 1. Navigation (NavGraph etc)
